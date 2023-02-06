@@ -22,17 +22,17 @@
                         <div class="logo_text">Plants</div>
                     </div>
                     <ul class="menu">
-                        <li class="menu_item">Home</li>
-                        <li class="menu_item">About us</li>
-                        <li class="menu_item">Service</li>
-                        <li class="menu_item">Price</li>
-                        <li class="menu_item">Contacts</li>
+                        <li class="menu_item"><a href="#home" class="menu_item_link">Home</a></li>
+                        <li class="menu_item"><a href="#about_us" class="menu_item_link">About us</a></li>
+                        <li class="menu_item"><a href="#service" class="menu_item_link">Service</a></li>
+                        <li class="menu_item"><a href="#price" class="menu_item_link">Price</a></li></li>
+                        <li class="menu_item"><a href="#contacts" class="menu_item_link">Contacts</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <main class="main">
-            <section class="welcome">
+            <section class="welcome" id="home">
                 <div class="container">
                     <div class="content">
                     <div class="leafs">
@@ -52,7 +52,7 @@
                 </div>
                 </div>
             </section>
-            <section class="aboutt">
+            <section class="aboutt" id="about_us">
                 <div class="container">
                     <div class="content">
                         <div class="about__container">
@@ -70,7 +70,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section_service">
+            <section class="section_service" id="service">
                 <div class="container">
                     <div class="content">
                         <div class="services_row">
@@ -78,15 +78,15 @@
                                 <div class="services_title">Service and our projects
                                 </div>
                                     <div class="services_buttons">
-                                        <div class="btn">Gardens</div>
-                                        <div class="btn">Lawn</div>
-                                        <div class="btn">Planting</div>
+                                        <div class="btn garden">Gardens</div>
+                                        <div class="btn lawn">Lawn</div>
+                                        <div class="btn planting">Planting</div>
                                     </div>
                             </div>
                              <div class="services">
                                 <div class="services_row_container">
                                     <div class="service_item">
-                                <div class="service_picture">
+                                <div class="service_picture garden" >
                                     <img src="img/first.png" alt="first_img">
                                 </div>
                                 <div class="rectangle">
@@ -96,7 +96,7 @@
                                 
                                     </div>
                                     <div class="service_item">
-                                <div class="service_picture">
+                                <div class="service_picture planting">
                                     <img src="img/first2.png" alt="first2_img">
                                 </div>
                                 <div class="rectangle">
@@ -106,7 +106,7 @@
                                 
                                     </div>
                                     <div class="service_item">
-                                <div class="service_picture">
+                                <div class="service_picture lawn">
                                     <img src="img/first3.png" alt="first3_img">
                                 </div>
                                 <div class="rectangle">
@@ -118,7 +118,7 @@
                             </div>
                                     <div class="services_row_container">
                                     <div class="service_item">
-                                <div class="service_picture">
+                                <div class="service_picture planting">
                                     <img src="img/first4.png" alt="first4_img">
                                 </div>
                                 <div class="rectangle">
@@ -128,7 +128,7 @@
                                 
                                     </div>
                                     <div class="service_item">
-                                <div class="service_picture">
+                                <div class="service_picture garden" id="garden">
                                     <img src="img/first5.png" alt="first5_img">
                                 </div>
                                 <div class="rectangle">
@@ -138,7 +138,7 @@
                                 
                                     </div>
                                     <div class="service_item">
-                                <div class="service_picture">
+                                <div class="service_picture planting">
                                     <img src="img/first6.png" alt="first6_img">
                                 </div>
                                 <div class="rectangle">
@@ -153,7 +153,7 @@
                 </div>
                 </div>
             </section>
-            <section class="prices">
+            <section class="prices" id="price">
                 <div class="container">
                     <div class="content">
                             <div class="prices_wrapper_column">
@@ -162,22 +162,61 @@
                                     <div class="prices_item_container">
                                         <div class="prices_items">
                                             <div class="price_item">
-                                                <div class="rectangle_7">
-                                                    <div class="rectangle_7_text"><span>Basics</span></div>
-                                                    <div class="accordion_btn">
-                                                        <img src="icons/accordion_btn.svg" alt="accordion_btn">
+                                                <div class="rectangle_7" >
+                                                    <div class="accordion__control">
+                                                        <div class="rectangle_7_text"><span>Basics</span></div>
+                                                        <div class="accordion_btn">
+                                                            <img src="icons/accordion_btn.svg" alt="accordion_btn">
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion__content">
+                                                        <div class="line"></div>
+                                                        <div class="accordeon_content_text">
+                                                            Release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                                        </div>
+                                                        <div class="accordion__content_price">
+                                                            <span class="price">$15</span>
+                                                            <span class="per"> / per hour</span>
+                                                        </div>
+                                                        <div class="orderbtn"><a href="#contacts" class="oderlink">Order</a></div>
                                                     </div>
                                                 </div>
-                                                <div class="rectangle_7">
-                                                    <div class="rectangle_7_text"><span>Standard</span></div>
-                                                    <div class="accordion_btn">
-                                                        <img src="icons/accordion_btn.svg" alt="accordion_btn">
+                                                <div class="rectangle_7" >
+                                                    <div class="accordion__control">
+                                                        <div class="rectangle_7_text"><span>Standard</span></div>
+                                                        <div class="accordion_btn">
+                                                            <img src="icons/accordion_btn.svg" alt="accordion_btn">
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion__content">
+                                                        <div class="line"></div>
+                                                        <div class="accordeon_content_text">
+                                                            Release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                                        </div>
+                                                        <div class="accordion__content_price">
+                                                            <span class="price">$25</span>
+                                                            <span class="per"> / per hour</span>
+                                                        </div>
+                                                        <div class="orderbtn"><a href="#contacts" class="oderlink">Order</a></div>
                                                     </div>
                                                 </div>
-                                                <div class="rectangle_7">
-                                                    <div class="rectangle_7_text"><span>Pro care</span></div>
-                                                    <div class="accordion_btn">
-                                                        <img src="icons/accordion_btn.svg" alt="accordion_btn">
+                                                <div class="rectangle_7" >
+                                                    <div class="accordion__control">
+                                                        <div class="rectangle_7_text"><span>Pro care</span></div>
+                                                        <div class="accordion_btn">
+                                                            <img src="icons/accordion_btn.svg" alt="accordion_btn">
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion__content">
+                                                        <div class="line"></div>
+                                                        <div class="accordeon_content_text">
+                                                            Release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                                        </div>
+                                                        <div class="accordion__content_price">
+                                                            <span class="price">$35</span>
+                                                            <span class="per"> / per hour</span>
+                                                        </div>
+                                                        <div class="orderbtn"><a href="#contacts" class="oderlink">Order</a></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -197,7 +236,7 @@
                         </div>
                 </div>
             </section>
-            <section class="contacts">
+            <section class="contacts" id="contacts">
                 <div class="container">
                     <div class="content">
                         <div class="contacts_row">
@@ -243,5 +282,6 @@
             </div>
         </footer>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
