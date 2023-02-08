@@ -1,1 +1,1 @@
-# [Plants](https://github.com/Yuriy85/Plants)
+# [Plants](https://yuriy85.github.io/Plants/)
