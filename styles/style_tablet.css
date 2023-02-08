@@ -1,0 +1,190 @@
+header {
+  height: 117px;
+}
+.navbar {
+  width: 668px;
+  height: auto;
+}
+
+.welcome {
+  height: 420px;
+}
+.welcome_box {
+  width: 668px;
+  height: auto;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  margin-top: -4%;
+}
+.welcome_section {
+  width: 346px;
+  height: 310px;
+}
+h1 {
+  font-size: 35px;
+  margin: 0;
+}
+.p1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-left: 1.5%;
+}
+.leafs {
+  width: 280px;
+}
+
+.about {
+  height: 783px;
+}
+.about_box {
+  width: 668px;
+  height: 648px;
+  flex-direction: column;
+  margin-top: -7.5%;
+}
+.plant {
+  width: 250px;
+}
+.about_us {
+  width: 100%;
+  align-items: center;
+}
+h2 {
+  font-size: 35px;
+  line-height: 45.61px;
+  text-align: center;
+}
+.p2 {
+  margin-bottom: 4%;
+}
+
+.service {
+  height: 1780px;
+}
+.service_box {
+  width: 668px;
+  height: auto;
+  justify-content: flex-start;
+}
+.services_content {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+.services_btns {
+  width: auto;
+  height: auto;
+  justify-content: flex-start;
+  margin-top: 6.5%;
+}
+.button {
+  margin: 0;
+  margin-right: 5.7%;
+}
+.services {
+  width: 668px;
+  height: auto;
+  grid-template-columns: repeat(2, 281px);
+  grid-template-rows: repeat(3, 450px);
+  margin-top: 5.9%;
+  grid-row-gap: 2.9%;
+}
+.service_item {
+  width: 281px;
+}
+.img {
+  margin-top: -13%;
+}
+.img_3 {
+  margin-left: -43%;
+}
+.h2_1 {
+  text-align: start;
+  margin-top: 3.6%;
+}
+.p4 {
+  margin: 0 3% 7% 3%;
+}
+
+.prices_wrap {
+  min-height: 585px;
+}
+.prices {
+  margin-top: -2%;
+}
+.prices_box {
+  width: 668px;
+  height: auto;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
+}
+.h2 {
+  font-size: 35px;
+  text-align: start;
+  margin-top: 2%;
+  margin-left: 4%;
+}
+.h2_3 {
+  font-size: 25px;
+  line-height: 35px;
+}
+.call {
+  width: 296px;
+  height: auto;
+  margin-top: 34%;
+}
+.button_con {
+  margin-top: 7%;
+}
+.leafs_2 {
+  align-items: flex-start;
+  margin-left: 6%;
+  margin-top: 2%;
+}
+
+.contacts {
+  height: 739px;
+}
+.contacts_box {
+  width: 668px;
+  height: 698px;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.container {
+  margin-top: -20%;
+  transition: all 0.5s;
+}
+.container_show {
+  transform: translateY(-41px);
+  transition: all 0.5s;
+}
+.contacts_data {
+  height: 280px;
+}
+.contacts_container {
+  margin: 0;
+}
+.h2_2 {
+  order: 1;
+  font-size: 40px;
+  margin-bottom: -2%;
+}
+.woman {
+  width: 30%;
+  margin-left: 7%;
+}
+
+footer {
+  height: 181px;
+}
+.footer_box {
+  width: 668px;
+  height: auto;
+  flex-direction: column;
+}
+.footer-data {
+  margin-top: 3.8%;
+  margin-left: 1.5%;
+}
