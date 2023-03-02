@@ -5,6 +5,7 @@ html {
 }
 body {
   margin: auto;
+  min-width: 360px;
 }
 
 header {
@@ -346,6 +347,7 @@ h2 {
   align-items: center;
   padding-top: 5%;
   padding-bottom: 5%;
+  margin-top: 15%;
 }
 .price_item {
   width: 250px;
