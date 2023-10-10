@@ -160,9 +160,9 @@ h2 {
   transform: translateY(-41px);
   transition: all 0.5s;
 }
-.contacts_data {
-  height: 280px;
-}
+/* .contacts_data { */
+/* height: 280px; */
+/* } */
 .contacts_container {
   margin: 0;
 }

@@ -226,6 +226,7 @@ h2 {
 }
 .woman {
   margin-left: 2%;
+  opacity: 0;
 }
 .woman_show {
   filter: opacity(0);
